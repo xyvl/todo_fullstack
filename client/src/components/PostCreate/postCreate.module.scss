@@ -1,0 +1,36 @@
+@import 'src/styles/main_styles.scss';
+.input {
+  border-radius: 11px;
+  border: 1px solid rgba(215, 89, 89, 1);
+  font-size: 1.5em;
+  padding: 10px 15px;
+  display: block;
+  background: transparent;
+  color: $text_color;
+  width: 35%;
+  margin: 0 auto;
+	margin-top: 20px;
+}
+.submit {
+	display: block;
+	font-size: 1.5em;
+	color: $text_color;
+	width: 35%;
+	margin: 0 auto;
+	display: block;
+	background: transparent;
+	border: 1px solid rgba(215, 89, 89, 1);
+	border-radius: 11px;
+	padding: 10px 0;
+	margin-top: 20px;
+	cursor: pointer;
+	transition:all .2s ease ;
+	-webkit-transition:all .2s ease ;
+	-moz-transition:all .2s ease ;
+	-ms-transition:all .2s ease ;
+	-o-transition:all .2s ease ;
+	&:hover{
+		box-shadow: 2px 3px 8px 0px rgba(215, 89, 89, 1);
+		color:$text_color_hover
+	}
+}

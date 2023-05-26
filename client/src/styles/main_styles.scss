@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+$bg: black;
+$text_color: white;
+$text_color_hover: #D75959;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: $bg;
+	font-family: 'Comme', sans-serif;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+button{
+	cursor: pointer;
+}

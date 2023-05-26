@@ -1,0 +1,42 @@
+@import 'src/styles/main_styles.scss';
+.post_form_main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.id{
+	color: $text_color;
+	font-size: 1.5em;
+	margin-right: 20px;
+}
+.body{
+	color:$text_color;
+	font-size: 1.25em;
+	flex-grow: 1;
+}
+.delete{
+	font-size: 1.25em;
+	color: $text_color;
+	background: transparent;
+	border: 1px solid rgba(215, 89, 89, 1);
+	border-radius: 11px;
+	padding: 10px 10px;
+	cursor: pointer;
+	transition:all .2s ease ;
+	-webkit-transition:all .2s ease ;
+	-moz-transition:all .2s ease ;
+	-ms-transition:all .2s ease ;
+	-o-transition:all .2s ease ;
+	&:hover{
+		box-shadow: 1px 2px 4px 0px rgba(215, 89, 89, 1);
+		color:$text_color_hover
+	}
+}
